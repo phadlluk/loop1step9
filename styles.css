@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c8b764;
+}
+main {
+  height: 60vh;
+  width: 65%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1.3fr 2fr;
+  margin: 12vh auto;
+  overflow: hidden;
+}
+.section1 {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+.section2 {
+  height: 100%;
+  overflow: auto;
+}
+.head {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 8rem;
+  margin: 3rem 2rem 3rem 4rem;
+}
+.visa img {
+  height: 2.5rem;
+  margin: 1rem 0 0 1rem;
+}
+.visa p {
+  margin: 0.5rem 0 0 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+}
+.visa {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: white;
+  height: 8rem;
+  width: 16rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.visa:hover {
+  box-shadow: 2px 2px 15px 2px rgb(90, 90, 179);
+}
+.balance {
+  display: flex;
+  gap: 12rem;
+  margin: 3rem 2rem 2rem 3rem;
+}
+.balance p {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.676);
+}
+.balance .line {
+  height: 0.05rem;
+  width: 30rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  flex-grow: 1;
+  margin: 3rem 0 3rem 3rem;
+}
+.fig1 sup {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.fig1 span {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.756);
+}
+
+.price1 {
+  display: flex;
+  gap: 3rem;
+  margin-top: rem;
+}
+.price1 img {
+  margin-left: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  height: 1.5rem;
+  margin-top: 4rem;
+}
+.price1 p:first-child {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.price1 p:nth-child(2) {
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  margin-top: 0.3rem;
+}
+.apple {
+  margin-top: 3.2rem;
+}
+.number1 {
+  margin-top: 3.3rem;
+  color: rgb(100, 150, 200);
+  margin-left: 2rem;
+}
+.number1 span {
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+.number1 sup {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.number2 {
+  margin-top: 3.3rem;
+  margin-left: 5rem;
+  color: rgb(88, 200, 14);
+}
+.number2 span {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+
+.number2 sup {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.price2 {
+  display: flex;
+  gap: 0.75rem;
+}
+.price2 img {
+  margin-left: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  height: 1.5rem;
+  margin-top: 3rem;
+}
+.price2 p:first-child {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.price2 p:nth-child(2) {
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  margin-top: 0.3rem;
+}
+.cinema {
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+}
+.number3 {
+  margin-top: 3.5rem;
+  margin-left: 4.5rem;
+  color: rgb(100, 150, 200);
+}
+.number3 span {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+.number3 sup {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.number4 {
+  margin-top: 2.6rem;
+  margin-left: 3.2rem;
+  color: rgb(100, 150, 200);
+}
+.number4 span {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+.number4 sup {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.number5 {
+  margin-top: 3.3rem;
+  margin-left: 6.6rem;
+  color: rgb(100, 150, 200);
+}
+.number5 span {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+.number5 sup {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.number6 {
+  margin-top: 3.3rem;
+  margin-left: 5.2rem;
+  color: rgb(100, 150, 200);
+}
+.number6 span {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+.number6 sup {
+  font-size: 1rem;
+  font-weight: bolder;
+}
